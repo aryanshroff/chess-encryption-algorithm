@@ -1,0 +1,5 @@
+The goal of this project is to build a program that can separate chess moves from a given input text, such as a PGN (Portable Game Notation) file or a chess game transcript. The program should be able to identify and extract individual moves, as well as record them in a structured format that can be used for further analysis or display.
+
+The program will need to utilize natural language processing (NLP) techniques to recognize the various notations used in chess, such as algebraic notation (e.g., "1.e4 e5 2.Nf3 Nc6"), descriptive notation (e.g., "P-K4 P-K4"), and coordinate notation (e.g., "e2-e4 e7-e5"). It will also need to handle variations, annotations, and other text that may be included in the input file.
+
+The program is developed as a standalone application in pythopn using regex tools
