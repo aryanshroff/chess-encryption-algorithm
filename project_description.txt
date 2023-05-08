@@ -1,5 +1,14 @@
-The goal of this project is to build a program that can separate chess moves from a given input text, such as a PGN (Portable Game Notation) file or a chess game transcript. The program should be able to identify and extract individual moves, as well as record them in a structured format that can be used for further analysis or display.
+Project Title: Chess Encryption Algorithm
 
-The program will need to utilize natural language processing (NLP) techniques to recognize the various notations used in chess, such as algebraic notation (e.g., "1.e4 e5 2.Nf3 Nc6"), descriptive notation (e.g., "P-K4 P-K4"), and coordinate notation (e.g., "e2-e4 e7-e5"). It will also need to handle variations, annotations, and other text that may be included in the input file.
+Project Description:
+The Chess Encryption Algorithm is a program that generates an encryption string using chess moves.
+The program takes a plain text message as input and converts it into an encrypted message using a series of chess moves.
 
-The program is developed as a standalone application in pythopn using regex tools
+The encryption process is as follows
+1. Obtain chess game via a repository
+2. Use 3 random variables to obtain any random game , a random color(black or white) and a random move number
+3. access the move for game using the random variables obtained in step2
+4. use this as an encryption text
+
+The decryption code at the recipient is as follows
+.........
