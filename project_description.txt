@@ -12,3 +12,11 @@ The encryption process is as follows
 
 The decryption code at the recipient is as follows
 .........
+
+To decrypt the message, the recipient would need to reverse the process by converting the chess moves back into binary codes and then converting the binary codes back into ASCII characters.
+
+The program would include a graphical user interface (GUI) that allows users to input their plain text message, select a chessboard, and generate the encrypted message. The program would also include a decryption function that allows the recipient to enter the encrypted message and the chessboard used to generate the encryption, and retrieve the original plain text message.
+
+To implement the program, you would need to create a chessboard representation in the program, which would include a mapping of each square on the board to a binary code. You would also need to create a function that converts binary codes into chess moves and vice versa. The program would be written in a high-level programming language such as Python or Java.
+
+The program could be extended to include additional encryption methods, such as using different chess pieces to represent different binary codes or using a different chess variant like 3D chess or chess960. It could also be extended to include additional features such as password protection, file encryption, and network encryption.
